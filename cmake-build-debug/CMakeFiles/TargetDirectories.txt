@@ -1,0 +1,4 @@
+/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles/lint.dir
+/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles/labyrinth.dir
