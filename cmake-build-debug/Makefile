@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-bu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lint
-
-# Build rule for target.
-lint: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lint
-.PHONY : lint
-
-# fast build rule for target.
-lint/fast:
-	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/build
-.PHONY : lint/fast
-
-#=============================================================================
 # Target rules for targets named labyrinth
 
 # Build rule for target.
@@ -135,6 +122,19 @@ labyrinth: cmake_check_build_system
 labyrinth/fast:
 	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/build
 .PHONY : labyrinth/fast
+
+#=============================================================================
+# Target rules for targets named lint
+
+# Build rule for target.
+lint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lint
+.PHONY : lint
+
+# fast build rule for target.
+lint/fast:
+	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/build
+.PHONY : lint/fast
 
 src/main.o: src/main.cpp.o
 
@@ -171,8 +171,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... lint"
 	@echo "... labyrinth"
+	@echo "... lint"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

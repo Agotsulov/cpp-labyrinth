@@ -21,4 +21,8 @@ ncurses.h
 -
 ctime
 -
+chrono
+-
+algorithm
+-
 

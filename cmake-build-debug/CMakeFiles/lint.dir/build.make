@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -54,8 +54,9 @@ CMAKE_BINARY_DIR = /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-bu
 include CMakeFiles/lint.dir/progress.make
 
 CMakeFiles/lint: ../src/main.cpp
+CMakeFiles/lint: ../src/map_convecter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linting lint"
-	/usr/local/bin/cmake -E chdir /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth /usr/bin/python /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/misc/cpplint/cpplint.py --filter=-whitespace/ending_newline,-build/namespaces,-build/header_guard,-readability/todo,-readability/namespace,-legal/copyright, --counting=detailed --linelength=120 /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/main.cpp
+	/usr/bin/cmake -E chdir /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth /usr/bin/python /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/misc/cpplint/cpplint.py --filter=-whitespace/ending_newline,-build/namespaces,-build/header_guard,-readability/todo,-readability/namespace,-legal/copyright, --counting=detailed --linelength=120 /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/main.cpp /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/map_convecter.cpp
 
 lint: CMakeFiles/lint
 lint: CMakeFiles/lint.dir/build.make
