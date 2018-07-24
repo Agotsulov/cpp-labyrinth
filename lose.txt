@@ -1,2 +1,0 @@
-1 33
-You_died_(r)_-_Restart_(q)_-_Quit
