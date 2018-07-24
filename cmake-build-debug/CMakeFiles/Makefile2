@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/byzilio/Programs/clion-2018.1.5/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /home/byzilio/Programs/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-bu
 CMakeFiles/lint.dir/all:
 	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/depend
 	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=3 "Built target lint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=15 "Built target lint"
 .PHONY : CMakeFiles/lint.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/lint.dir/clean
 CMakeFiles/labyrinth.dir/all:
 	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/depend
 	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target labyrinth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target labyrinth"
 .PHONY : CMakeFiles/labyrinth.dir/all
 
 # Include target in all.
@@ -108,7 +108,7 @@ all: CMakeFiles/labyrinth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/labyrinth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/labyrinth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/labyrinth.dir/rule

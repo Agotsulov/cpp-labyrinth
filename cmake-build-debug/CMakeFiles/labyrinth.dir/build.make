@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/byzilio/Programs/clion-2018.1.5/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E remove -f
+RM = /home/byzilio/Programs/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,9 +57,297 @@ include CMakeFiles/labyrinth.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/labyrinth.dir/flags.make
 
+CMakeFiles/labyrinth.dir/src/Engine.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/Engine.cpp.o: ../src/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labyrinth.dir/src/Engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/Engine.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/Engine.cpp
+
+CMakeFiles/labyrinth.dir/src/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/Engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/Engine.cpp > CMakeFiles/labyrinth.dir/src/Engine.cpp.i
+
+CMakeFiles/labyrinth.dir/src/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/Engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/Engine.cpp -o CMakeFiles/labyrinth.dir/src/Engine.cpp.s
+
+CMakeFiles/labyrinth.dir/src/Engine.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/Engine.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/Engine.cpp.o.provides: CMakeFiles/labyrinth.dir/src/Engine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/Engine.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/Engine.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/Engine.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/Engine.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o: ../src/VectorLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/VectorLevel.cpp
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/VectorLevel.cpp > CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.i
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/VectorLevel.cpp -o CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.s
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.provides: CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o: ../src/actors/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Block.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Block.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Block.cpp > CMakeFiles/labyrinth.dir/src/actors/Block.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Block.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Block.cpp -o CMakeFiles/labyrinth.dir/src/actors/Block.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o: ../src/actors/Choose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Choose.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Choose.cpp > CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Choose.cpp -o CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o: ../src/actors/Coin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Coin.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Coin.cpp > CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Coin.cpp -o CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o: ../src/actors/CoinGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/CoinGenerator.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/CoinGenerator.cpp > CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/CoinGenerator.cpp -o CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o: ../src/actors/Door.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Door.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Door.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Door.cpp > CMakeFiles/labyrinth.dir/src/actors/Door.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Door.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Door.cpp -o CMakeFiles/labyrinth.dir/src/actors/Door.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o: ../src/actors/Floor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Floor.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Floor.cpp > CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Floor.cpp -o CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o: ../src/actors/LeaderBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/LeaderBoard.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/LeaderBoard.cpp > CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/LeaderBoard.cpp -o CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o: ../src/actors/RealtimePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RealtimePlayer.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RealtimePlayer.cpp > CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RealtimePlayer.cpp -o CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o: ../src/actors/RoguelikePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RoguelikePlayer.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RoguelikePlayer.cpp > CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/RoguelikePlayer.cpp -o CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o
+
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o: CMakeFiles/labyrinth.dir/flags.make
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o: ../src/actors/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Text.cpp
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labyrinth.dir/src/actors/Text.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Text.cpp > CMakeFiles/labyrinth.dir/src/actors/Text.cpp.i
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labyrinth.dir/src/actors/Text.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/actors/Text.cpp -o CMakeFiles/labyrinth.dir/src/actors/Text.cpp.s
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.requires:
+
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.requires
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.provides: CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.requires
+	$(MAKE) -f CMakeFiles/labyrinth.dir/build.make CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.provides.build
+.PHONY : CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.provides
+
+CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.provides.build: CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o
+
+
 CMakeFiles/labyrinth.dir/src/main.cpp.o: CMakeFiles/labyrinth.dir/flags.make
 CMakeFiles/labyrinth.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labyrinth.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/labyrinth.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/labyrinth.dir/src/main.cpp.o -c /home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/src/main.cpp
 
 CMakeFiles/labyrinth.dir/src/main.cpp.i: cmake_force
@@ -83,16 +371,40 @@ CMakeFiles/labyrinth.dir/src/main.cpp.o.provides.build: CMakeFiles/labyrinth.dir
 
 # Object files for target labyrinth
 labyrinth_OBJECTS = \
+"CMakeFiles/labyrinth.dir/src/Engine.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o" \
+"CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o" \
 "CMakeFiles/labyrinth.dir/src/main.cpp.o"
 
 # External object files for target labyrinth
 labyrinth_EXTERNAL_OBJECTS =
 
+labyrinth: CMakeFiles/labyrinth.dir/src/Engine.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o
+labyrinth: CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o
 labyrinth: CMakeFiles/labyrinth.dir/src/main.cpp.o
 labyrinth: CMakeFiles/labyrinth.dir/build.make
 labyrinth: /usr/lib/x86_64-linux-gnu/libcurses.so
 labyrinth: CMakeFiles/labyrinth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable labyrinth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/byzilio/Workspace/Cpp/agotsulov-game/labyrinth/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable labyrinth"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labyrinth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +412,18 @@ CMakeFiles/labyrinth.dir/build: labyrinth
 
 .PHONY : CMakeFiles/labyrinth.dir/build
 
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/Engine.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/VectorLevel.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Block.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Choose.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Coin.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/CoinGenerator.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Door.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Floor.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/LeaderBoard.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/RealtimePlayer.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/RoguelikePlayer.cpp.o.requires
+CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/actors/Text.cpp.o.requires
 CMakeFiles/labyrinth.dir/requires: CMakeFiles/labyrinth.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/labyrinth.dir/requires

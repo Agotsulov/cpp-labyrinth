@@ -1,4 +1,4 @@
-all: clean reload build exec
+all: clean reload lint build exec
 
 mkdir_build:
 	[ -d ./cmake-build-debug ] | mkdir -p cmake-build-debug
